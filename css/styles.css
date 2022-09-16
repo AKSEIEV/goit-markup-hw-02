@@ -1,5 +1,9 @@
-body {
-    background-color: ;
-    color: ;
-    
-}
+.is-hidden {
+        visibility: hidden;
+        pointer-events: none;
+        position: absolute;
+      }
+      body {
+        background-color: ;
+        color: ;
+        }     
