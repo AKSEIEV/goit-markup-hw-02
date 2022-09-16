@@ -1,9 +1,14 @@
 .is-hidden {
-        visibility: hidden;
-        pointer-events: none;
-        position: absolute;
-      }
-      body {
-        background-color: ;
-        color: ;
-        }     
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+body {
+  background-color: ;
+  color: ;
+}
+ 
+
+/* do knopki tilku 
+fon 
+cvet tekcta i hover i fokus kanewno*/
