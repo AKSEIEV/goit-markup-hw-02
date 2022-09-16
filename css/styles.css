@@ -3,12 +3,21 @@
   pointer-events: none;
   position: absolute;
 }
+/* do knopki tilku 
+fon 
+cvet tekcta i hover i fokus kanewno*/
+button {
+  color: #212121;
+  background-color: #f5f4fa;
+  border: #f5f4fa;
+}
+button:hover,
+button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: #2196f3;
+}
 body {
   background-color: ;
   color: ;
 }
- 
-
-/* do knopki tilku 
-fon 
-cvet tekcta i hover i fokus kanewno*/
