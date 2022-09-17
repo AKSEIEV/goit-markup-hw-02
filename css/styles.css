@@ -29,3 +29,25 @@ body {
   background-color: #F5F5F5;
   color: #212121;
 }
+.link-header {
+  color: #212121;
+}
+.link-div-header {
+  color: #757575;
+}
+.link-footer {
+  color: #757575;
+} 
+ .link-header:hover,
+ .link-header:focus {
+  color: #2196F3;
+}
+
+.link-div-header,
+.link-footer:hover,
+.link-div-header,
+.link-footer:focus {
+  color: #2196F3;
+}
+
+
