@@ -5,10 +5,17 @@
   position: absolute;
 }
 /* knopka- hover i fokus pohodu100%*/
+/* для miniкнопок в портболіо 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62; */
 button {
   color: #212121;
   background-color: #f5f4fa;
   border: #f5f4fa;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
   font-family: inherit;
 }
 button:hover,
@@ -18,7 +25,7 @@ button:focus {
   border: #2196f3;
 }
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: ;
-  color: ;
+  font-family: "Roboto", sans-serif;
+  background-color: #F5F5F5;
+  color: #212121;
 }
