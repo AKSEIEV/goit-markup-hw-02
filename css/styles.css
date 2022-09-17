@@ -1,15 +1,15 @@
+/* minus zagolovok neznay nawo */
 .is-hidden {
   visibility: hidden;
   pointer-events: none;
   position: absolute;
 }
-/* do knopki tilku 
-fon 
-cvet tekcta i hover i fokus kanewno*/
+/* knopka- hover i fokus pohodu100%*/
 button {
   color: #212121;
   background-color: #f5f4fa;
   border: #f5f4fa;
+  font-family: inherit;
 }
 button:hover,
 button:focus {
