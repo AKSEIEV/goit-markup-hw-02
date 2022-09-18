@@ -49,7 +49,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
-.link-header:active {
+.link-header:visited {
   color: #2196f3;
 }
 
