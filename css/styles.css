@@ -56,20 +56,42 @@ body {
 }
 /* h1 */
 .title-main-big {
-
- }
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 /* h2 */
 .title-main-medium {
- 
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* h3 */
 .title-main-small {
-  
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 /* h4 */
 .title-main-tiny {
-  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
+.title-main-tiny > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .logo-footer {
 }
 .link-footer {
