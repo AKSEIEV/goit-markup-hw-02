@@ -26,9 +26,10 @@ button:focus {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   color: #212121;
 }
+/* psevdoklasi headera i footera */
 .link-header {
   color: #212121;
 }
@@ -37,17 +38,13 @@ body {
 }
 .link-footer {
   color: #757575;
-} 
- .link-header:hover,
- .link-header:focus {
-  color: #2196F3;
 }
 
-.link-div-header,
+.link-header:hover,
+.link-header:focus,
+.link-div-header:hover,
 .link-footer:hover,
-.link-div-header,
+.link-div-header:focus,
 .link-footer:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
-
-
