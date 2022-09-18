@@ -9,13 +9,22 @@
 .header {
   background-color: #212121;
 }
-button {
+.btn {
   color: #212121;
   background-color: #f5f4fa;
   border: #f5f4fa;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  font-family: inherit;
+}
+.btn-portfolio {
+  color: #212121;
+  background-color: #f5f4fa;
+  border: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   font-family: inherit;
 }
 button:hover,
