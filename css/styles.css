@@ -5,10 +5,10 @@
   position: absolute;
 }
 /* knopka- hover i fokus pohodu100%*/
-/* для miniкнопок в портболіо 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62; */
+/* head */
+.header {
+  background-color: #212121;
+}
 button {
   color: #212121;
   background-color: #f5f4fa;
@@ -30,25 +30,25 @@ body {
   background-color: #f5f5f5;
   color: #212121;
 }
-/* psevdoklasi headera i footera */
+/* main */
+/* psevdoklasi */
 .link-header {
   color: #212121;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .link-div-header {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
-.link-footer {
-  color: #757575;
-  font-weight: 400;
-  font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-}
-
+.link-header :active,
 .link-header:visited {
   color: #2196f3;
 }
@@ -69,11 +69,13 @@ letter-spacing: 0.03em;
 }
 /* h1 */
 .title-main-big {
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* h2 */
 .title-main-medium {
@@ -104,27 +106,14 @@ letter-spacing: 0.03em;
   letter-spacing: 0.03em;
   color: #757575;
 }
-
-.logo-footer {
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #2196F3;
-text-decoration: none;
-}
-.logo-footer-accent {
-  color: #ffffff;
-}
-.logo-header { font-family: 'Raleway';
+.logo-header {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: #2196f3;
   text-decoration: none;
 }
 .logo-header-accent {
@@ -132,10 +121,32 @@ text-decoration: none;
 }
 .address {
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #ffffff;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
+/* footer */
 footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
+}
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-footer-accent {
+  color: #ffffff;
+}
+.link-footer {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
