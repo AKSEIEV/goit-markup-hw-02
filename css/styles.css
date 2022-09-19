@@ -9,6 +9,9 @@
 .header {
   background-color: #212121;
 }
+li {
+  list-style-type: none;
+}
 .btn {
   color: #212121;
   background-color: #f5f4fa;
@@ -45,11 +48,12 @@ body {
 
 .link-header {
   color: #212121;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  
 }
 .link-div-header {
   color: #757575;
@@ -119,7 +123,7 @@ body {
   color: #757575;
 }
 .logo-header {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -142,7 +146,7 @@ footer {
   background-color: #2f303a;
 }
 .logo-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -156,7 +160,6 @@ footer {
 }
 .link-footer {
   color: #757575;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
