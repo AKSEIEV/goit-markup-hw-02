@@ -185,6 +185,10 @@ footer {
   background-color: var(--top-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
