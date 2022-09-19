@@ -16,15 +16,16 @@ li {
 }
 
 .btn {
-  color: var(--top-color);
-  background-color: var(--big-fon-color);
-  border: var(--big-fon-color);
+  color: var(--big-fon-color);
+  background-color: var(--acent-color) ;
+  border: var(--acent-color) ;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  font-family: inherit;
-  cursor: pointer;
   letter-spacing: 0.06em;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
 
 .btn-portfolio {
